@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstbar{
+    background-color: rgb(34, 32, 32);
+    height: 70px;
+}
+.logo{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 200px;
+}
+.container-fluid{
+    height:30px ;
+    background-color:white;
+    /* color: black; */
+    position: relative;
+    left: 250px;
+}
+
+.collapse .dropdown-menu{
+    background-color:#3D0301;
+ 
+ }
+
+ .collapse .dropdown-menu .dropdown-item{
+    color: rgb(253, 249, 249);
+ }
+ .collapse .dropdown-menu .dropdown-item:hover{
+    color: red;
+ }
+/* 
+#navbarSupportedContent{
+   color: black;
+} */
+
+.redbox p{
+    background-color: maroon;
+    color: white;
+    height: 30px;
+    width: 290px;
+    text-align: center;
+    border: solid white 1px;
+    border-radius: 25px;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    top:5px;
+    left: 670px;
+  
+}
+span:hover{
+   background-color:#3D0301 ; 
+}
+.carousel-inner p{
+    background-color: maroon;
+    color: white;
+    align-content: center;
+    font-size: large;
+    font-weight: 100px ;
+    font-style: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* ---------------------card------------- */
+.box{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.card a{
+    background-color:  maroon;
+    border: none;
+}
+.btn p{
+    background-color: maroon ;
+}
+
+.enquire-box1{
+    background-color:#430805 ;
+    height: 900px;
+}
+
+.enquire-box{
+     height: 130px;
+    width: 500px;
+    padding: 30px;
+    margin: 30px;
+    background-color: red;
+    border-radius: 30px 30px 50px 0px;
+     position: relative;
+    top: 100px;
+    left: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.enquire{
+    height: 600px;
+    width: 500px;
+    border: solid 1px rgb(253, 253, 253);
+    padding: 30px;
+    margin: 50px;
+    border-radius: 10px 10px 70px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: white;
+}
+
+.card1{
+    height: 700px;
+    width: 700px;
+    margin-left: 700px;
+    position: absolute ;
+    top: 1500px;
+    color: white;
+    padding: 20px;
+    
+}
+.colage{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+   
+}
+.image-container{
+    /* border: solid 2px red; */
+    height: 600px;
+    width: 630px;
+    padding: 20px;
+    margin: 10px;
+  
+}
+
+ .image3{
+  
+    height: 200px;
+    width: 300px;
+    color:#430805 
+ 
+}
+.
